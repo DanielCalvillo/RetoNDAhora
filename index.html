@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu página web</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./assets/img/logo_paternidad_efectiva.png" alt="Logo de la marca">
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#gaby-gonzales">Gaby Gonzales</a></li>
+        <li><a href="#la-experiencia">La Experiencia</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><span class="divisor">|</span></li>
+        <li><a href="#media-partner">Media Partner</a></li>
+      </ul>
+    </div>
+    <div class="mobile-menu-toggle">
+      <button onclick="handleClick()">
+        <img src="./assets/img/button.png" alt="Imagen" id="sandwich-button">
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile_nav_bar">
+      <ul>
+        <li><a href="#gaby-gonzales">Gaby Gonzales</a></li>
+        <li><a href="#la-experiencia">La Experiencia</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#media-partner">Media Partner</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="principal">
+    <div class="content">
+      <h2 class="principal_first_title">
+        <span class="custom_orange">15 A 17 de Octubre 2021 </span>
+        <span class="slashes"> ///</span> 
+        CUPO LIMITADO 
+        <span class="slashes"> ///</span>
+      </h2>
+      <h3>Obtén aquí tu Acceso PLUS a La Experiencia, 100% gratis.</h3>
+      <div class="principal_subcontainer">
+        <div class="image-container">
+          <img src="./assets/img/acceso_especial_plus.png" alt="Imagen">
+        </div>
+        <div class="text-form-container">
+          <div class="text">
+            <p>Vive el método con el que miles&nbsp; de
+              <br>papás están logrando que sus hijos <br>
+              &nbsp;los escuchen y les hagan caso sin 
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gritos, golpes o amenazas.</p>
+          </div>
+          <form>
+            <label for="name">Nombre</label>
+            <input type="text" id="name">
+            <label for="mail">Correo</label>
+            <input type="email" id="mail">
+            <button type="submit" >Únete a la fiesta</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stats_section">
+    <div class="stats_container">
+      <div class="stat">
+        <p class="amount_people">64,911</p>
+        <p class="stat_description">alumnos que han <br>cursado nuestros<br> entrenamientos</p>
+      </div>
+      <div class="stat">
+        <img class="networks_image" src="./assets/img/socialNetworks.png" alt="Imagen">
+      </div>
+      <div class="stat">
+        <p class="amount_people">+114</p>
+        <p class="stat_description">paises donde <br> tenemos <br> presencia</p>
+      </div>
+      <div class="stat">
+        <p class="amount_people">4,489,800</p>
+        <p class="stat_description">de personas en <br>nuestra <br>comunidad</p>
+      </div>
+      <div class="stat">
+        <p class="amount_people">1,467</p>
+        <p class="stat_description">facilitadores <br>certificados en el <br>Método de Paternidad <br>Efectiva</p>
+      </div>
+    </div>
+    <p class="stats_updated_amounts">*Cifras actualizadas al 30 de septiembre de 2021</p>
+  </section>
+
+  <section id="gaby-gonzales">
+    <div class="content">
+      <p class="presented_by">Presentado por:</p>
+      <h1>GABY GONZALES</h1>
+      <div class="description">
+        <p>Considerada una de las líderes de opinión más importantes en temas de <br>
+          paternidad consciente, pareja, proyecto de vida, psicopedagogía, terapia <br>infantil, 
+          transformación personal y psicología, Gaby Gonzáles, junto a su <br>esposo Luis 
+          Carlos Flore, <span class="description_bold">crearon el método de paternidad Efectiva <br>(MPE),</span> el cual se ha
+          posicionado en el mundo de habla hispana como la <br>máxima autoridad <span class="description_bold">en temas de
+          paternidad y crianza.</span></p>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="./assets/img/gaby_gonzalez.png" alt="Imagen de Gaby Gonzales">
+    </div>
+  </section>
+
+  <section id="la-experiencia">
+    <div class="content">
+      <div class="titles_container">
+        <h1 >LO QUE VIVIRÁS EN</h1>
+        <h2>La Experiencia.</h2>
+        <h3 class="experiencia_dias_horas">3 días (16 horas) que lo cambiarán todo:</h3>
+      </div>
+      <div class="flex">
+        <div class="la_experiencia_flex_container">
+          <div class="item">
+            <img src="https://picsum.photos/201/300" alt="Imagen" id="experiencia_one">
+            <p id="description_one"></p>
+          </div>
+          <div class="item">
+            <img src="https://picsum.photos/200/301" alt="Imagen" id="experiencia_two">
+            <p id="description_two">
+              
+            </p>
+          </div>
+          <div class="item">
+            <img src="https://picsum.photos/202/300" alt="Imagen" id="experiencia_three">
+            <p id="description_three">
+              
+            </p>
+          </div>
+        </div>
+        <div class="la_experiencia_flex_container">
+          <div class="item">
+            <img src="https://picsum.photos/200/302" alt="Imagen" id="experiencia_four">
+            <p id="description_four">
+              
+            </p>
+          </div>
+          <div class="item">
+            <img src="https://picsum.photos/203/300" alt="Imagen" id="experiencia_five">
+            <p id="description_five">
+             
+            </p>
+          </div>
+          <div class="item">
+            <img src="https://picsum.photos/200/303" alt="Imagen" id="experiencia_six">
+            <p id="description_six"></p>
+          </div>
+        </div>
+      </div>
+      <h3 class="experiencia_but_is_not_all">PERO ESO NO ES TODO...</h3>
+      <p class="experiencia_lograras">
+        Lograrás que tu hijo(a) gane la confianza que está necesitando para ser más independiente.
+        <br> Sabrás qué pasos dar para sostener tu autoridad: Aprenderás a pisar tierra firme.
+      </p>
+      <h3 class="experiencia_but_is_not_all">Y LO MEJOR...</h3>
+      <h4 class="experienica_not_alone">¡NO ESTARÁS SOLO(A) EN NINGÚN MOMENTO DE ESTE PROCESO!</h4>
+      <p class="experiencia_vivelo">¡Vive esta experiencia de altísima calidad humana!</p>
+    </div>
+  </section>
+
+  <section id="beneficios">
+    <div class="content">
+      <h1>BENEFICIOS DE</h1>
+      <h2>LA EXPERIENCIA PLUS</h2>
+      <p class="beneficios_event_valuation">Este evento está valorado en $147 USD pero hoy tienes la oportunidad de asistir ¡¡¡GRATIS!!!</p>
+      <div class="banner">
+        <img src="./assets/img/banner.png" alt="Banner de Acceso Especial PLUS">
+      </div>
+      <div class="flex">
+        <div class="la_experiencia_flex_container">
+          <div class="item">
+            <img src="./assets/img/facebook.png" alt="Imagen">
+            <p>
+              Accesso a la comunidad <br>
+              exclusiva y #Efectiva de <br>
+              <span class="beneficios_bold">Facebook</span>donde hallarás <br>
+              una tribu que te <br>
+              acompañará a vivir la <br>
+              paternidad que deseas.
+            </p>
+          </div>
+          <div class="item">
+            <img src="./assets/img/cuaderno.png" alt="Imagen">
+            <p>
+              <span class="beneficios_bold">Cuaderno</span> de <br>
+              trabajo <span class="beneficios_bold">digital</span> de <br>
+              La Experiencia.
+            </p>
+          </div>
+          <div class="item">
+            <img src="./assets/img/tres.png" alt="Imagen">
+            <p>
+              <span class="beneficios_bold">Reto de 3 días</span><br>
+              Al concluir <br>
+              La experiencia: <br>
+              <br>
+              "Reto Efectivo <br>
+              No Perfecto".
+            </p>
+          </div>
+          <div class="item">
+            <img src="./assets/img/computer.png" alt="Imagen">
+            <p>
+              Acceso a <span class="beneficios_bold">sitio web</span><br>
+              donde transmitiremos <br>
+              en vivo La Experiencia
+            </p>
+          </div>
+
+        </div>
+        <div class="la_experiencia_flex_container">
+          <div class="item">
+            <img src="./assets/img/zoom.png" alt="Imagen">
+            <p>
+              <span class="beneficios_bold">Salas de Zoom<br>adicionales</span>
+              y más <br>
+              pequeñas, para <br>
+              <span class="beneficios_bold">actividades<br>especiales<br></span>
+              en grupos
+            </p>
+          </div>
+          <div class="item">
+            <img src="./assets/img/toolkids.png" alt="Imagen">
+            <p>
+              <span class="beneficios_bold">ToolKIDS: <br></span>
+              Actividades <br>
+              especiales, muy bien <br>
+              pensadas para que tu hijo<br>
+              esté entretenido con<br>
+              diferentes actividades <br>
+              mientras tu VIVES La <br>
+              Experiencia a conciencia
+            </p>
+          </div>
+          <div class="item">
+            <img src="./assets/img/kitvirtual.png" alt="Imagen">
+            <p>
+              <span class="beneficios_bold">Kit virtual<br>(1 para papás + para<br>niños)</span>
+              para reforzar La <br>
+              Experiencia <br>
+              + materiales digitales
+            </p>
+          </div>
+          <div class="item">
+            <img src="./assets/img/privada.png" alt="Imagen">
+            <p>
+              <span class="benficios_bold">Plataforma privada</span> para <br>
+              acceder a espacios, <br>
+              actividades y <br>
+              <span class="beneficios_bold">contenidos Exclusivos <br></span>
+              antes y después <br>
+              del evneto.
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <form class="registration-form">
+        <h3 class="beneficios_form_title">Regístrate al Acceso Especial PLUS</h3>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo">
+        <button type="submit">Únete a la fiesta</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section_agenda">
+    <div class="agenda">
+      <h2>Agenda De La Experiencia</h2>
+      <div class="events_container">
+        <div class="event">
+          <img src="./assets/img/dia_one.png" alt="Imagen">
+          <p class="agenda_event_title">15 de octubre 9 a.m. - 3 pm.</p>
+          <p class="event_description">(hora Ciudad de México)</p>
+        </div>
+        <div class="event">
+          <img src="./assets/img/dia_two.png" alt="Imagen">
+          <p class="agenda_event_title">16 de octubre 9 a.m. - 3 pm.</p>
+          <p class="event_description">(hora Ciudad de México)</p>
+        </div>
+        <div class="event">
+          <img src="./assets/img/dia_four.png" alt="Imagen">
+          <p class="agenda_event_title">17 de octubre 9 a.m. - 1 pm.</p>
+          <p class="event_description">(hora Ciudad de México)</p>
+        </div>
+      </div>
+    </div>
+    <h3 class="agenda_cupo_limitado">CUPO LIMITADO</h3>
+  </section>
+
+  <section id="faq">
+    <div class="content">
+      <h1>FAQ:</h1>
+      <h2>LO QUE NECESITAS SABER DE LA EXPERIENCIA</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="question">
+            <p>¿Qué es "Método Paternidad Efectiva, La Experiencia"?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">La Experiencia es un evento...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>¿Cuándo y en qué horarios se llevará a cabo "Método Paternidad Efectiva, La Experiencia"?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">La Experiencia se llevará a cabo...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>¿Cómo me registro a "Método Paternidad Efectiva, La Experiencia"?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">Para registrarte a...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>"Método Paternidad Efectiva, La Experiencia" es totalmente gratuito?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">Sí, el evento es 100% gratuito...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>¿Cuántas horas totales dura La Experiencia?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">La Experiencia tiene una duración de...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>No consigo finalizar mi registro, ¿Qué hago?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">Si tienes problemas para finalizar tu...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>¿Qué encontraré en la comunidad exclusiva y #Efectiva de Facebook?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">La comunidad exclusiva y #Efectiva de...</p>
+        </div>
+        <div class="faq-item">
+          <div class="question">
+            <p>¿Recibiré un certificado o diploma al final de La Experiencia?</p>
+            <div class="arrow"></div>
+          </div>
+          <p class="answer">Sí, al final de La Experiencia...</p>
+        </div>
+      </div>
+      <h3 class="faq_dudas">¿TIENES ALGUNA DUDA QUE NO RESUELVE ESTE FAQ?</h3>
+      <p class="faq_send_email">Envíanos un email a Experiencia y Consumo de Niños de Ahora: <span class="mail_blue">exco@ninosdeahora.tv</span> <br> Así, nuestro equipo te ayudará con lo que sea necesario.</p>
+    </div>
+  </section>
+
+  <section id="media-partner">
+    <div class="content">
+      <h1>ELLOS SON NUESTROS MEDIA PARTNERS</h1>
+      <p>Tú también puedes ser uno de nuestros <span class="media_bold">Media Partners</span> para que <span class="media_bold">TU MARCA</span> aparezca en nuestro evento.</p>
+      <button class="media-partner-button">CONVIERTE A TU MARCA EN MEDIA PARTNER</button>
+      <div class="media-partners">
+        <div class="partner-row">
+          <img src="./assets/img/formula_de_lanzamiento.png" alt="Logo">
+          <img src="./assets/img/rappi.png" alt="Logo">
+          <img src="./assets/img/tres.png" alt="Logo">
+          <img src="./assets/img/eucalypto.png" alt="Logo">
+          <img src="./assets/img/saber.png" alt="Logo">
+          <img src="./assets/img/horizontes.png" alt="Logo">
+        </div>
+        <div class="partner-row">
+          <img src="./assets/img/mamisa.png" alt="Logo">
+          <img src="./assets/img/m_one_two_three.png" alt="Logo">
+          <img src="./assets/img/mom_advisor.png" alt="Logo">
+          <img src="./assets/img/mindfullness.png" alt="Logo">
+          <img src="./assets/img/mama_agilidad.png" alt="Logo">
+          <img src="./assets/img/ana_maria.png" alt="Logo">
+          <img src="./assets/img/the_dayli_method.png" alt="Logo">
+        </div>
+      </div>
+      <img src="./assets/img/spanda.png" alt="Logo" class="footer-logo">
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <h1>Nos has visto en:</h1>
+      <div class="logo-row">
+        <img src="./assets/img/televisa.png" alt="Logo">
+        <img src="./assets/img/reforma.png" alt="Logo">
+        <img src="./assets/img/wradio.png" alt="Logo">
+        <img src="./assets/img/acir.png" alt="Logo">
+        <img src="./assets/img/readers.png" alt="Logo">
+        <img src="./assets/img/tv_azteca.png" alt="Logo">
+        <img src="./assets/img/telemundo.png" alt="Logo">
+        <img src="./assets/img/hoy_dia.png" alt="Logo">
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <h4>INFORMACIÓN BÁSICA SOBRE PROTECCIÓN DE DATOS RESPONSABLE:</h4>
+      <p>Responsable: Niños de ahora SA de CV / FINALIDAD: Gestionar el envío de información, prospección comercial y dar acceso a los productos online / LEGITIMACIÓN: Consentimiento del interesado / DERECHOS: Acceder, Rectificar y suprimir los datos, así como otros derechos como se explica en la información adicional / INFORMACIÓN ADICIONAL: Puedes consultar la información adicional y detallada sobre Aviso de Privacidad, Términos y Condiciones.</p>
+      <p>Este sitio utiliza cookies propias y de terceros. Si continúas navegando, consideramos que aceptas su uso. Más información en nuestro aviso de privacidad.</p>
+      <p class="last_paragraph">Niños de ahora SA de CV | RFC: NAH1404249G1 | Metepec, Estado de México, México</p>
+    </div>
+  </footer>
+  <script src="./script.js" defer></script>
+
+</body>
+
+</html>

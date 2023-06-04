@@ -1,0 +1,1044 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #26083a;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.divisor {
+  font-size: 1.3rem;
+  color: #9A6EB7
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-left: 3rem;
+}
+
+.navbar .menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar .menu ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.navbar .menu ul li span {
+  margin: 0 5px;
+}
+
+.navbar .mobile-menu-toggle {
+  display: none;
+}
+
+.navbar .mobile-menu {
+  display: none;
+}
+
+/* Sección principal */
+#principal {
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to right top, #200432, #26083a, #2c0a42, #330d4a, #3a1052);
+  color: #fff;
+}
+
+.custom_orange {
+  color: #FBAA2C;
+}
+
+.slashes {
+  color: #E198FF;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+}
+
+.principal_subcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#principal .content {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+#principal h2 {
+  font-size: 1.1rem;
+  margin-top: 6rem;
+}
+
+#principal h3 {
+  font-size: 1.4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 10px;
+}
+
+#principal .image-container {
+  width: 60%;
+  margin-right: 20px;
+}
+
+#principal .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+#principal .text-form-container {
+  width: 60%;
+  margin-left: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+#principal .text {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+#principal form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#principal form label {
+  font-size: 0.75rem;
+  margin-left: 0.8rem;
+  font-weight: lighter;
+  color: #C7C4C9;
+}
+
+#principal form input {
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: 0.8rem;
+  padding: 10px;
+  background-color: #311355;
+  border-color: #E188FE;
+  border-radius: 4px;
+  color: #fff
+}
+
+#principal form input:focus {
+  outline: none;
+
+}
+
+#principal form button {
+  background-color: #E53877;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  margin: 1rem 27%
+}
+
+.stats_section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+  background-color: #772D98;
+  padding: 0rem 4rem 1rem 4rem
+}
+
+.stats_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.stats_updated_amounts {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-bottom: 0;
+  color: #EAD7F7
+}
+
+.networks_image {
+  height: 9rem;
+}
+
+.stat {
+  text-align: center;
+  margin: 0 10px;
+  width: 20%;
+}
+
+.amount_people {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #FAC35C;
+}
+
+.stat_description {
+  color: #fff
+}
+
+/* Sección Gaby Gonzales */
+#gaby-gonzales {
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: linear-gradient(to right top, #f7eefc, #f8f2fd, #faf7fe, #fcfbff, #ffffff);
+  padding: 40px;
+}
+
+#gaby-gonzales .content {
+  width: 50%;
+  text-align: left;
+}
+
+#gaby-gonzales h1 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #B686C0;
+}
+
+.presented_by {
+  font-size: 24px;
+  color: #FBAA2C;
+  margin-bottom: 0;
+  font-weight: lighter;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#gaby-gonzales .image-container {
+  width: 30%;
+  margin-right: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#gaby-gonzales .image-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom:2rem ;
+}
+
+#gaby-gonzales .description {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: lighter;
+  max-width: 95%;
+}
+
+.description_bold {
+  font-weight: bold;
+}
+
+/* Sección La Experiencia */
+
+.linea_test {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+}
+
+.left_curve {
+  width: 7rem;
+  height: 35px;
+  border-top-right-radius: 100% 300px;
+  border-top: solid;
+  border-width: 6px;
+  border-color: #EACEFE;
+}
+.right_curve {
+  width: 80px;
+  height: 35px;
+  border-bottom-left-radius: 100% 300px;
+  border-bottom-color: #EACEFE;
+  border-bottom: solid;
+  position: relative;
+  right: 0.4rem;
+  bottom: 0.5rem;
+  border-width: 6px;
+  border-color: #EACEFE; 
+}
+
+#la-experiencia {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#la-experiencia .content {
+  max-width: 1200px;
+}
+
+.titles_container {
+  width: 50%;
+  margin: 0 auto
+}
+
+#la-experiencia h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+  margin-top: 0;
+  text-align: left;
+  color: #B687C1;
+}
+
+#la-experiencia h2 {
+  font-size: 20px;
+  margin-top: 0;
+  text-align: right;
+  margin-right: 5rem;
+  color: #FBAA2B;
+}
+
+.experiencia_dias_horas {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#la-experiencia .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.la_experiencia_flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#la-experiencia .item {
+  text-align: center;
+  background-image: linear-gradient(to right top, #4a439a, #4d46a5, #5049af, #534bba, #564ec5);
+  padding-top: 3rem;
+  color: #fff;
+  height: 11rem;
+  width: 13rem;
+  border-radius: 16px;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#la-experiencia .item img {
+  width: 20%;
+  height: auto;
+}
+
+#la-experiencia .item p {
+  font-size: 12px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.la_experiencia_custom_orange {
+  color: #E4A230;
+}
+
+.experiencia_but_is_not_all {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.experiencia_lograras {
+  font-size: 12px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.experienica_not_alone {
+  text-align: center;
+  color: #FBA618;
+}
+
+.experiencia_vivelo {
+  text-align: center;
+  font-size: 20px;
+}
+
+#la-experiencia .agenda {
+  margin-top: 40px;
+}
+
+#la-experiencia .event {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Sección Beneficios */
+#beneficios {
+  background-color: #fff;
+  padding: 40px;
+}
+
+#beneficios .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#beneficios h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+  margin-top: 0;
+  text-align: center;
+  color: #B687C1;
+}
+
+#beneficios h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+  margin-top: 0;
+  text-align: center;
+  color: #2F0243;
+}
+
+.beneficios_event_valuation {
+  font-size: 12px;
+  font-weight: bold;
+  color: #2F0243;
+
+  margin-bottom: 20px;
+}
+
+#beneficios .banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#beneficios .banner img {
+  width: 70%;
+  height: auto;
+}
+
+#beneficios .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#beneficios .item {
+  text-align: center;
+  padding-top: 1rem;
+  height: 15.5rem;
+  width: 11rem;
+  border-radius: 16px;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  border: solid;
+  border-color: #B482C1;
+}
+
+#beneficios .item img {
+  width: 60%;
+  height: auto;
+}
+
+#beneficios .item p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.beneficios_bold {
+  font-weight: bold;
+}
+
+#beneficios .registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.beneficios_form_title {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  color: #54236B;
+}
+
+#beneficios .registration-form input {
+  width: 80%;
+  margin: 0.2rem auto 0.5rem auto;
+  padding: 10px;
+
+}
+#beneficios .registration-form label {
+  margin-left: 7rem;
+  margin-bottom: 0;
+  color: #180E42;
+  font-size: 14px;
+}
+
+#beneficios .registration-form button {
+  background-color: #E53877;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  margin: 1rem auto 0 auto
+}
+
+.section_agenda {
+  background-image: linear-gradient(to right top, #f7eefc, #f8f2fd, #f9f6fe, #fbfafe, #fefefe);
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.agenda {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.agenda h2 {
+  color: #752196;
+  padding-top: 2rem;
+}
+
+.agenda .events_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.agenda .agenda_event_title {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+.agenda .event_description {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+
+.agenda .event {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#beneficios .agenda .event img {
+  width: 100%;
+  height: auto;
+}
+
+.agenda_cupo_limitado {
+  color: #A8208D;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+/* Sección FAQ */
+#faq {
+  background-image: linear-gradient(to right top, #fefdff, #fdfbff, #fcf8ff, #faf6ff, #f9f4ff);
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+#faq .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#faq h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+#faq h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#faq .faq_dudas {
+  font-size: 22px;
+  margin-top: 3rem;
+  margin-bottom: 20px;
+  color: #27013E;
+}
+
+#faq .faq_send_email {
+  font-size: 12px;
+}
+
+#faq .mail_blue {
+  color: #1F69E0;
+}
+
+#faq .faq-list {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#faq .faq-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#faq .faq-item .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #f00;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#faq .faq-item .question .arrow {
+  width: 10px;
+  height: 10px;
+  border: solid #f00;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+#faq .faq-item .question.open .arrow {
+  transform: rotate(225deg);
+}
+
+#faq .faq-item .question p {
+  margin: 0;
+}
+
+#faq .faq-item .answer {
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #f00;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+/* Sección Media Partners */
+#media-partner {
+  background-image: linear-gradient(to right top, #ffffff, #fdfcff, #fbfaff, #faf7ff, #f9f4ff);
+  padding: 40px;
+}
+
+#media-partner .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#media-partner h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #54256C;
+}
+
+.media_bold {
+  font-weight: bold;
+}
+
+#media-partner p {
+  margin-top: 2rem;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+
+#media-partner .media-partner-button {
+  padding: 10px 20px;
+  background-color: #772D98;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#media-partner .media-partners {
+  margin-top: 40px;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #6E0693;
+}
+
+#media-partner .partner-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#media-partner .partner-row img {
+  margin: 0 10px;
+}
+
+#media-partner .footer-logo {
+  margin-top: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #F2F1F1;
+
+}
+
+footer .footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+footer .footer-top h1 {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+footer .footer-top .logo-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+footer .footer-top .logo-row img {
+  margin: 0 10px;
+}
+
+footer .footer-bottom {
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  background-color: #EBEFF2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .footer-bottom h4 {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.last_paragraph {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 894px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .menu ul {
+    display: none;
+  }
+
+  .navbar .mobile-menu-toggle {
+    display: block;
+    cursor: pointer;
+    margin-right: 3rem;
+  }
+  .navbar .mobile-menu-toggle img {
+    display: block;
+    cursor: pointer;
+    width: 2rem;
+  }
+
+  #mobile_nav_bar {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 99;
+  }
+
+  .navbar .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .mobile-menu ul li {
+    margin-bottom: 10px;
+  }
+
+  #principal {
+    padding: 20px;
+  }
+
+  #principal .content {
+    flex-direction: column;
+  }
+
+  #principal .image-container {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #principal .text-form-container {
+    width: 100%;
+  }
+
+  #principal .text {
+    text-align: center;
+  }
+
+  #principal form {
+    align-items: center;
+  }
+
+  #principal .stats-container {
+    flex-direction: column;
+  }
+
+  #gaby-gonzales {
+    padding: 20px;
+    height: 60rem;
+  }
+
+  #gaby-gonzales .content {
+    flex-direction: column;
+  }
+
+  #gaby-gonzales .image-container {
+    width: 60%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #la-experiencia {
+    padding: 20px;
+  }
+
+  #la-experiencia .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #beneficios {
+    padding: 20px;
+  }
+
+  #beneficios .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #beneficios .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  #beneficios .registration-form input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  #beneficios .agenda {
+    padding: 20px;
+  }
+
+  #faq {
+    padding: 20px;
+  }
+
+  #faq .faq-item .question {
+    padding: 5px;
+  }
+
+  #faq .faq-item .question p {
+    margin: 0;
+  }
+
+  #faq .faq-item .answer {
+    padding: 5px;
+  }
+
+  #media-partner {
+    padding: 20px;
+  }
+
+  #media-partner .partner-row {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #media-partner .partner-row img {
+    margin: 0 5px;
+  }
+
+  footer .footer-top .logo-row {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  footer .footer-top .logo-row img {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #principal {
+    height: 70rem;
+  }
+  .principal_subcontainer {
+    flex-direction: column;
+  }
+
+  #principal .image-container, #principal .text-form-container {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #principal form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #principal form input {
+    width: 70%;
+  }
+  
+  #principal form button {
+    margin: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 894px) {
+  #principal h2 {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  #principal h3 {
+    font-size: 1.2rem;
+  }
+
+  #principal .text {
+    font-size: 1rem;
+  }
+
+  .stats_container {
+    flex-direction: column;
+  }
+
+  .stat {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  #principal {
+    height: 60rem;
+    padding-right: 1rem;
+  }
+  #principal .image-container {
+    width: 100%;
+    margin-right: 2rem;
+  }
+  
+  #principal .image-container img {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .image-container img{
+    width: 70%;
+  }
+  #principal h2 {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+  }
+
+  #principal h3 {
+    font-size: 1rem;
+    margin-right: 0;
+  }
+
+  #principal .text {
+    font-size: 0.8rem;
+    margin: 0
+  }
+
+  .amount_people {
+    font-size: 1.2rem;
+  }
+}
