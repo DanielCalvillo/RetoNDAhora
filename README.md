@@ -13,3 +13,7 @@ La descripción de los textos si viene desde la api.
 La aplicación es totalmente responsiva y lo más apegada al diseño posible en corto tiempo.
 Algunos detalles en los fondos de secciones fueron omitidos.
 Todo lo demás viene acoplado a las especificaciones del proyecto.
+
+Se utilizó Vanilla: Javascript, html y css.
+
+Ningún framework de css o Frontend como React fueron implementados
